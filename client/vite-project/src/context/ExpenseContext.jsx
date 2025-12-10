@@ -5,7 +5,7 @@ import { useAuth } from './AuthContext.jsx';
 
 const ExpenseContext = createContext();
 
-const API_BASE_URL = 'http://localhost:5004/api/expenses'; 
+const API_BASE_URL = 'https://expense-tracker-1-x0l9.onrender.com/api/expenses'; 
 
 export const ExpenseProvider = ({ children }) => {
   const { user, logout } = useAuth(); // We need the user and token

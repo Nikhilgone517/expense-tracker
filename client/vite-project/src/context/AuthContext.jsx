@@ -5,7 +5,7 @@ import axios from 'axios';
 const AuthContext = createContext();
 
 // Set up the API base URL (IMPORTANT: Change 5000 if your backend uses 5004)
-const API_URL = 'http://localhost:5004/api/auth/'; 
+const API_URL = 'https://expense-tracker-1-x0l9.onrender.com/api/auth/'; 
 
 // 2. Create the Provider Component
 export const AuthProvider = ({ children }) => {
