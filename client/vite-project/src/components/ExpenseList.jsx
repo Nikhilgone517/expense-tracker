@@ -61,8 +61,8 @@ const ExpenseList = () => {
             {/* Amount */}
             <div className="text-right">
               <p className="text-xl font-bold text-red-600 flex items-center">
-                {/* <FaDollarSign className="text-lg mr-1"/> */}
-                Rs{" "}   
+                <FaDollarSign className="text-lg mr-1"/>
+                
                 {expense.amount.toFixed(2)}
               </p>
             </div>
