@@ -13,7 +13,10 @@ const ExpenseChart = () => {
     // 1. Group expenses by category and calculate total spent in each
     const categoryMap = expenses.reduce((acc, expense) => {
       const category = expense.category || 'Other';
-      acc[category] = (acc[category] || 0) + expense.amount;
+      const amount = parseFloat(expense.amount);
+      console.log('Processing expense:', expense);
+      if (isNaN(amount)) return acc;
+      acc[category] = (acc[category] || 0) + amount;
       return acc;
     }, {});
 
