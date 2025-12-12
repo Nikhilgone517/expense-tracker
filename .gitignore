@@ -1,0 +1,46 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+.build/
+build/
+
+# Vite
+.vite/
+
+# Environment
+.env
+.env.*
+
+# Coverage
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Misc
+*.local
+*.cache
+
+# Nested project folders
+client/vite-project/node_modules/
+client/vite-project/dist/
+server/node_modules/
+server/dist/
